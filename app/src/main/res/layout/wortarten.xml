@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="@drawable/deutschland">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wortarten:"
+                android:textSize="57dp"
+                android:background="@color/Gelbde"
+                android:id="@+id/textView42"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Beispiel:"
+            android:textSize="50dp"
+            android:id="@+id/textView41"
+            android:layout_below="@+id/textView42"
+            android:layout_alignParentStart="true"
+            android:background="@color/Gelbde" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hund:"
+            android:textSize="40dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignParentStart="true"
+            android:background="@color/Gelbde"
+            android:id="@+id/textView43"
+            android:textColor="#3c0b0b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomen"
+            android:textSize="40dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignParentEnd="true"
+            android:textColor="#3c0b0b"
+            android:id="@+id/textView44" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/textView43"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:id="@+id/frameLayout15"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#000000"
+            android:layout_above="@+id/textView41"
+            android:layout_alignEnd="@+id/textView44"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/frameLayout15"
+            android:id="@+id/frameLayout16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Wort1:"
+                android:id="@+id/textView45"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="40dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/editText2"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/frameLayout16"
+            android:background="#000000"
+            android:id="@+id/frameLayout17"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/frameLayout17"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frameLayout18">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Wort2"
+                android:id="@+id/textView46"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="40dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/editText3"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/frameLayout18"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:id="@+id/frameLayout19"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/frameLayout19"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frameLayout20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Wort3:"
+                android:id="@+id/textView47"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="40dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/editText4"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/frameLayout20"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:id="@+id/frameLayout21"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/frameLayout21"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frameLayout22">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Wort4:"
+                android:id="@+id/textView48"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="40dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/editText5"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/frameLayout22"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:id="@+id/frameLayout23"></FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/frameLayout23"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frameLayout24">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Wort5:"
+                android:id="@+id/textView49"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="40dp" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/editText6"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="35dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/frameLayout24"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:id="@+id/frameLayout25"></FrameLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Eingabe Überprüfen!!"
+            android:id="@+id/button2"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/frameLayout25"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PPPP"
+            android:id="@+id/textView50"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:textSize="260dp"
+            android:textColor="#01fffdfd"
+            android:background="#01ffffff" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

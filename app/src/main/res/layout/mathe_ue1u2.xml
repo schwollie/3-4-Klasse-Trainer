@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/matheback">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Countdown:"
+            android:id="@+id/textView3"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/countdown"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="40dp"
+            android:textColor="#000000" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/frameLayout4"
+        android:layout_centerHorizontal="true"
+        android:background="@color/aablackbalcken"
+        android:id="@+id/frameLayout7"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/frameLayout7"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Aufgaben:"
+            android:id="@+id/textView4"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00"
+            android:id="@+id/textView8"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="40dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/frameLayout8"
+        android:background="@color/aablackbalcken"
+        android:id="@+id/frameLayout9"></FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/frameLayout9"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zahl1"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="45dp"
+            android:textSize="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/textView10"
+            android:layout_alignTop="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9"
+            android:textSize="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zahl2"
+            android:id="@+id/textView11"
+            android:layout_alignTop="@+id/textView10"
+            android:layout_toEndOf="@+id/textView10"
+            android:textSize="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="="
+            android:id="@+id/textView12"
+            android:layout_alignTop="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11"
+            android:textSize="40dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12"
+            android:textSize="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ergebnis prüfen!"
+            android:id="@+id/maprofe1"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:textSize="24dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_centerHorizontal="true"
+        android:background="@color/aablackbalcken"
+        android:id="@+id/frameLayout10"
+        android:layout_marginTop="10dp"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/frameLayout10"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout11">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fehler:"
+            android:id="@+id/textView13"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00"
+            android:id="@+id/textView14"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="40dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/frameLayout11"
+        android:layout_centerHorizontal="true"
+        android:background="@color/aablackbalcken3"
+        android:id="@+id/frameLayout12"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/frameLayout12"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout13">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Richtig:"
+            android:id="@+id/textView15"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00"
+            android:id="@+id/textView16"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="40dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/frameLayout13"
+        android:layout_centerHorizontal="true"
+        android:background="@color/aablackbalcken3"></FrameLayout>
+
+</RelativeLayout>

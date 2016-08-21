@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="67dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/hsuuebung"
+            android:text=" HSU Übungen:"
+            android:textSize="50dp"
+            android:background="#31c017" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout2"
+        android:background="#4effffff">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu1"
+            android:layout_gravity="left|top"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu2"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu3"
+            android:layout_gravity="right|top"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu4"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu5"
+            android:layout_gravity="center"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu6"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu7"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu8"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/hsu9"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/plusminus"
+            android:layout_marginTop="10dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:background="#4dffffff">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/homebutton2"
+            android:layout_gravity="center"
+            android:background="@drawable/homebuttonhsu" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/nextbutton2"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/nextbuttonhsu"
+            android:layout_marginRight="25dp" />
+    </FrameLayout>
+</RelativeLayout>

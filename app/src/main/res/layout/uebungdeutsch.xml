@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="67dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Deutsch Übungen:"
+            android:id="@+id/deutschuebung"
+            android:textSize="50dp"
+            android:background="#f0f01e" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout3"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de1"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de2"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de3"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de4"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de5"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de6"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de7"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de8"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/de9"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wortart" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frameLayout3"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/homebutton3"
+            android:layout_gravity="center"
+            android:background="@drawable/homebuttonde" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/nextbutton3"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/nextbuttonde"
+            android:layout_marginRight="25dp" />
+    </FrameLayout>
+
+</RelativeLayout>

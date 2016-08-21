@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lars.mathetrainer.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statistik:"
+            android:textColor="#000000"
+            android:textSize="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="55dp" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="30dp"
+            android:background="#657ef0"
+            android:text="Mathe:"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="10dp"
+            android:text="Fehler:"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_marginStart="78dp"
+            android:layout_toEndOf="@+id/textView17"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView17"
+            android:text="Richtig:"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignTop="@+id/textView18"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/textView19"
+            android:text="Richtig/Aufgabe:"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/stmara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="30dp"
+            android:background="#f0e214"
+            android:text="Deutsch:"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView22"
+            android:layout_marginTop="10dp"
+            android:text="Falsch:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView21"
+            android:layout_toEndOf="@+id/textView20"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:text="Richtig:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_alignStart="@+id/textView26"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView23"
+            android:layout_marginTop="10dp"
+            android:text="Richtig/Aufgabe:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView24"
+            android:layout_alignStart="@+id/textView25"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView24"
+            android:layout_marginTop="30dp"
+            android:background="#57d347"
+            android:text="HSU:"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView24"
+            android:layout_below="@+id/textView27"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/textView5"
+            android:text="Falsch:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView28"
+            android:layout_alignTop="@+id/textView29"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView29"
+            android:text="Richtig:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView30"
+            android:layout_below="@+id/textView30"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView31"
+            android:layout_marginTop="10dp"
+            android:text="Richtig/Aufgabe:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView32"
+            android:layout_alignStart="@+id/textView33"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView32"
+            android:layout_marginTop="30dp"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="Durschnittlich:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/frameLayout14"
+            android:layout_marginTop="10dp"
+            android:text="Durschnittlich Falsch:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView34"
+            android:layout_alignStart="@+id/textView35"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView34"
+            android:layout_marginTop="10dp"
+            android:text="Durschnittlich Richtig:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView36"
+            android:layout_alignStart="@+id/textView37"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView36"
+            android:layout_marginTop="10dp"
+            android:text="Dein Stärkstes Fach:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView38"
+            android:layout_alignStart="@+id/textView39"
+            android:id="@+id/bestfach"
+            android:text="00"
+            android:textSize="40dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView38"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="#000000"></FrameLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
